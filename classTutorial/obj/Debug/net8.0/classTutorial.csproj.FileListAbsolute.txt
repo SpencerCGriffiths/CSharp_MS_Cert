@@ -1,0 +1,14 @@
+/home/spencer/c#/classTutorial/bin/Debug/net8.0/classTutorial
+/home/spencer/c#/classTutorial/bin/Debug/net8.0/classTutorial.deps.json
+/home/spencer/c#/classTutorial/bin/Debug/net8.0/classTutorial.runtimeconfig.json
+/home/spencer/c#/classTutorial/bin/Debug/net8.0/classTutorial.dll
+/home/spencer/c#/classTutorial/bin/Debug/net8.0/classTutorial.pdb
+/home/spencer/c#/classTutorial/obj/Debug/net8.0/classTutorial.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/classTutorial/obj/Debug/net8.0/classTutorial.AssemblyInfoInputs.cache
+/home/spencer/c#/classTutorial/obj/Debug/net8.0/classTutorial.AssemblyInfo.cs
+/home/spencer/c#/classTutorial/obj/Debug/net8.0/classTutorial.csproj.CoreCompileInputs.cache
+/home/spencer/c#/classTutorial/obj/Debug/net8.0/classTutorial.dll
+/home/spencer/c#/classTutorial/obj/Debug/net8.0/refint/classTutorial.dll
+/home/spencer/c#/classTutorial/obj/Debug/net8.0/classTutorial.pdb
+/home/spencer/c#/classTutorial/obj/Debug/net8.0/classTutorial.genruntimeconfig.cache
+/home/spencer/c#/classTutorial/obj/Debug/net8.0/ref/classTutorial.dll

@@ -1,0 +1,14 @@
+/home/spencer/c#/projectTestTwo/obj/Debug/net8.0/projectTestTwo.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/projectTestTwo/obj/Debug/net8.0/projectTestTwo.AssemblyInfoInputs.cache
+/home/spencer/c#/projectTestTwo/obj/Debug/net8.0/projectTestTwo.AssemblyInfo.cs
+/home/spencer/c#/projectTestTwo/obj/Debug/net8.0/projectTestTwo.csproj.CoreCompileInputs.cache
+/home/spencer/c#/projectTestTwo/bin/Debug/net8.0/projectTestTwo
+/home/spencer/c#/projectTestTwo/bin/Debug/net8.0/projectTestTwo.deps.json
+/home/spencer/c#/projectTestTwo/bin/Debug/net8.0/projectTestTwo.runtimeconfig.json
+/home/spencer/c#/projectTestTwo/bin/Debug/net8.0/projectTestTwo.dll
+/home/spencer/c#/projectTestTwo/bin/Debug/net8.0/projectTestTwo.pdb
+/home/spencer/c#/projectTestTwo/obj/Debug/net8.0/projectTestTwo.dll
+/home/spencer/c#/projectTestTwo/obj/Debug/net8.0/refint/projectTestTwo.dll
+/home/spencer/c#/projectTestTwo/obj/Debug/net8.0/projectTestTwo.pdb
+/home/spencer/c#/projectTestTwo/obj/Debug/net8.0/projectTestTwo.genruntimeconfig.cache
+/home/spencer/c#/projectTestTwo/obj/Debug/net8.0/ref/projectTestTwo.dll

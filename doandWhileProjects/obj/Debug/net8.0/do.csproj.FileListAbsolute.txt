@@ -1,0 +1,14 @@
+/home/spencer/c#/doandWhileProjects/bin/Debug/net8.0/do
+/home/spencer/c#/doandWhileProjects/bin/Debug/net8.0/do.deps.json
+/home/spencer/c#/doandWhileProjects/bin/Debug/net8.0/do.runtimeconfig.json
+/home/spencer/c#/doandWhileProjects/bin/Debug/net8.0/do.dll
+/home/spencer/c#/doandWhileProjects/bin/Debug/net8.0/do.pdb
+/home/spencer/c#/doandWhileProjects/obj/Debug/net8.0/do.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/doandWhileProjects/obj/Debug/net8.0/do.AssemblyInfoInputs.cache
+/home/spencer/c#/doandWhileProjects/obj/Debug/net8.0/do.AssemblyInfo.cs
+/home/spencer/c#/doandWhileProjects/obj/Debug/net8.0/do.csproj.CoreCompileInputs.cache
+/home/spencer/c#/doandWhileProjects/obj/Debug/net8.0/do.dll
+/home/spencer/c#/doandWhileProjects/obj/Debug/net8.0/refint/do.dll
+/home/spencer/c#/doandWhileProjects/obj/Debug/net8.0/do.pdb
+/home/spencer/c#/doandWhileProjects/obj/Debug/net8.0/do.genruntimeconfig.cache
+/home/spencer/c#/doandWhileProjects/obj/Debug/net8.0/ref/do.dll

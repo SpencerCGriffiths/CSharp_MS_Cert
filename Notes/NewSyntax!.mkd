@@ -1,0 +1,155 @@
+Javascript / C# 
+=== / == 
+
+
+.ToUpper() 
+.ToLower() 
+.Trim() - removes leading or trailing white space. 
+.Contains()
+.Split()
+int.TryParse()
+.IndexOf()
+.Remove(): 
+    s.Remove(int StartIndex)
+    s.Remove(int StartIndex, int count)  
+.SubString():
+    s.Substring(int startIndex)
+    s.Substring(int startIndex, int length)
+.TrimStart():
+    s.TrimStart()       -Removes all the leading white-space characters from the current string.
+    s.TrimStart(Char)   -Removes all the leading occurrences of a specified character from the current string.
+    s.TrimStart(Char[])	-Removes all the leading occurrences of a set of characters specified in an array from the current string.
+
+console.ReadLine() - takes CLI user input
+
+! is the unary negation operator (same as in JS)
+
+Conditional Operator (ternary operator)
+? :
+
+evaluateThisCondition ? ifConditionIsTrue : IfConditionIsFalse
+int saleAmount = 1001;
+// int discount = saleAmount > 1000 ? 100 : 50;
+
+Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
+
+Switch Cases: 
+int employeeLevel = 100;
+string employeeName = "John Smith";
+
+string title = "";
+
+switch (employeeLevel)
+{
+    case 100:
+    case 200:
+        title = "Senior Associate";
+        break;
+    case 300:
+        title = "Manager";
+        break;
+    case 400:
+        title = "Senior Manager";
+        break;
+    default:
+        title = "Associate";
+        break;
+}
+
+Console.WriteLine($"{employeeName}, {title}");
+
+
+
+Make an Array from a String: 
+string sku = "01-MN-L";
+string[] product = sku.Split('-');
+
+
+Iteration: 
+forEach(string name in names) { 
+
+}
+
+forEach - loops and acts once for each element in the array
+
+while () { 
+
+}
+
+while - continues to loop whilst the condition is true 
+
+
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine(i);
+}
+
+for - allows for iteration with the highest level of control 
+
+
+## Do - while loop: 
+# will execute the do block at least once and evaluate the while condition
+# continue allows for a condition to be ignored and for the program to skip to the while condition
+# while will only if the condition is true 
+
+
+Random random = new Random();
+int current = random.Next(1, 11);
+
+do
+{
+    current = random.Next(1, 11);
+
+    if (current >= 8) continue;
+
+    Console.WriteLine(current);
+} while (current != 7);
+
+
+While Loop: 
+while (current >= 3)
+{
+    Console.WriteLine(current);
+    current = random.Next(1, 11);
+}
+Console.WriteLine($"Last number: {current}");
+
+### User input
+## Console.ReadLine()
+(common practice to use a nullable type string i.e. string? and then evaluate it later)
+(do while statement can be used to ensure input is valid)
+
+e.g.: 
+string? readResult;
+bool validEntry = false;
+Console.WriteLine("Enter a string containing at least three characters:");
+do
+{
+    readResult = Console.ReadLine();
+    if (readResult != null)
+    {
+        if (readResult.Length >= 3)
+        {
+            validEntry = true;
+        }
+        else
+        {
+            Console.WriteLine("Your input is invalid, please try again.");
+        }
+    }
+} while (validEntry == false);
+
+
+## integers from user input: 
+# int.TryParse()
+(requires what you want to turn in to an integer and then where the integer will be stored)
+
+// capture user input in a string variable named readResult
+
+int numericValue = 0;
+bool validNumber = false;
+
+validNumber = int.TryParse(readResult, out numericValue);
+
+Projects for this area: 
+doandWhileProjects/Program.cs

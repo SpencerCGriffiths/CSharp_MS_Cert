@@ -1,0 +1,23 @@
+Stateful versus stateless methods & creating instances of class's
+
+State = the condition of the execution environment at a specific moment in time. 
+
+As code executes values are stored in variables and the current state of the application is the collection aof all alues stored in memory. 
+
+Some methods dont rely on the current state of the application i.e. stateless methods!
+
+Stateless methods can work without referencing or changing values already stored in memory. Stateless are also known as Static. 
+
+Console.WriteLine() is a stateless/ static  method as it does not require or rely on any other code in the application. 
+
+stateful methods rely on values stored in memory by previous lines of code that have already been executed. These are also instance methods. 
+
+Stateful (instance) methods keep track of their state in fields whic are variables defined on the class (object). Each new instance gets a copy of these fields. 
+
+A single class can support both stateful and stateless methods. However, when you need to call stateful methods you must first create an instance of the class so that the method can access state. 
+
+To create an instance of a class you use the new operator:
+
+Random dice = new Random();
+int roll = dice.Next(1, 7);
+Console.WriteLine(roll);

@@ -1,0 +1,14 @@
+/home/spencer/c#/battleGame/obj/Debug/net8.0/battleGame.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/battleGame/obj/Debug/net8.0/battleGame.AssemblyInfoInputs.cache
+/home/spencer/c#/battleGame/obj/Debug/net8.0/battleGame.AssemblyInfo.cs
+/home/spencer/c#/battleGame/obj/Debug/net8.0/battleGame.csproj.CoreCompileInputs.cache
+/home/spencer/c#/battleGame/bin/Debug/net8.0/battleGame
+/home/spencer/c#/battleGame/bin/Debug/net8.0/battleGame.deps.json
+/home/spencer/c#/battleGame/bin/Debug/net8.0/battleGame.runtimeconfig.json
+/home/spencer/c#/battleGame/bin/Debug/net8.0/battleGame.dll
+/home/spencer/c#/battleGame/bin/Debug/net8.0/battleGame.pdb
+/home/spencer/c#/battleGame/obj/Debug/net8.0/battleGame.dll
+/home/spencer/c#/battleGame/obj/Debug/net8.0/refint/battleGame.dll
+/home/spencer/c#/battleGame/obj/Debug/net8.0/battleGame.pdb
+/home/spencer/c#/battleGame/obj/Debug/net8.0/battleGame.genruntimeconfig.cache
+/home/spencer/c#/battleGame/obj/Debug/net8.0/ref/battleGame.dll

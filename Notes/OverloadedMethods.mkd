@@ -1,0 +1,15 @@
+Overloaded Methods
+
+Many methods in .Net have overloaded method signatures. This enables you to call the method with or without arguments specified in the calling statement. 
+
+i.e.
+int number = 7;
+string text = "seven";
+
+Console.WriteLine(number);
+Console.WriteLine();
+Console.WriteLine(text);
+
+The first WriteLine() method uses a method signature that defines an int parameter.
+The second WriteLine() method uses a method signature that defines zero input parameters.
+The third WriteLine() method uses a method signature that defines a string parameter

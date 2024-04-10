@@ -1,0 +1,14 @@
+/home/spencer/c#/controlVariableScope/obj/Debug/net8.0/controlVariableScope.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/controlVariableScope/obj/Debug/net8.0/controlVariableScope.AssemblyInfoInputs.cache
+/home/spencer/c#/controlVariableScope/obj/Debug/net8.0/controlVariableScope.AssemblyInfo.cs
+/home/spencer/c#/controlVariableScope/obj/Debug/net8.0/controlVariableScope.csproj.CoreCompileInputs.cache
+/home/spencer/c#/controlVariableScope/bin/Debug/net8.0/controlVariableScope
+/home/spencer/c#/controlVariableScope/bin/Debug/net8.0/controlVariableScope.deps.json
+/home/spencer/c#/controlVariableScope/bin/Debug/net8.0/controlVariableScope.runtimeconfig.json
+/home/spencer/c#/controlVariableScope/bin/Debug/net8.0/controlVariableScope.dll
+/home/spencer/c#/controlVariableScope/bin/Debug/net8.0/controlVariableScope.pdb
+/home/spencer/c#/controlVariableScope/obj/Debug/net8.0/controlVariableScope.dll
+/home/spencer/c#/controlVariableScope/obj/Debug/net8.0/refint/controlVariableScope.dll
+/home/spencer/c#/controlVariableScope/obj/Debug/net8.0/controlVariableScope.pdb
+/home/spencer/c#/controlVariableScope/obj/Debug/net8.0/controlVariableScope.genruntimeconfig.cache
+/home/spencer/c#/controlVariableScope/obj/Debug/net8.0/ref/controlVariableScope.dll

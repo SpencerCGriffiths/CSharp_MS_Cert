@@ -1,0 +1,14 @@
+/home/spencer/c#/CsharpProjects/TestProject/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter
+/home/spencer/c#/CsharpProjects/TestProject/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter.deps.json
+/home/spencer/c#/CsharpProjects/TestProject/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter.runtimeconfig.json
+/home/spencer/c#/CsharpProjects/TestProject/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter.dll
+/home/spencer/c#/CsharpProjects/TestProject/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter.pdb
+/home/spencer/c#/CsharpProjects/TestProject/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/CsharpProjects/TestProject/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.AssemblyInfoInputs.cache
+/home/spencer/c#/CsharpProjects/TestProject/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.AssemblyInfo.cs
+/home/spencer/c#/CsharpProjects/TestProject/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.csproj.CoreCompileInputs.cache
+/home/spencer/c#/CsharpProjects/TestProject/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.dll
+/home/spencer/c#/CsharpProjects/TestProject/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/refint/Starter.dll
+/home/spencer/c#/CsharpProjects/TestProject/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.pdb
+/home/spencer/c#/CsharpProjects/TestProject/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.genruntimeconfig.cache
+/home/spencer/c#/CsharpProjects/TestProject/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/ref/Starter.dll
