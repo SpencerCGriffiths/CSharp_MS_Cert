@@ -37,12 +37,12 @@ namespace CSharpIntermediate
         static void Main(string[] args)
         { 
             var c = new Customer(1, "John");
-
             var order = new Order();
-            customer.Orders.Add(order);
 
-            Console.WriteLine(customer.Id);
-            Console.WriteLine(customer.Name);
+            c.Orders.Add(order);
+
+            Console.WriteLine(c.Id);
+            Console.WriteLine(c.Name);
         }
     }
 }
