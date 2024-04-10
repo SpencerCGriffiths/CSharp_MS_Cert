@@ -1,0 +1,15 @@
+/home/spencer/c#/discoverIntegralTypes/bin/Debug/net8.0/discoverIntegralTypes
+/home/spencer/c#/discoverIntegralTypes/bin/Debug/net8.0/discoverIntegralTypes.deps.json
+/home/spencer/c#/discoverIntegralTypes/bin/Debug/net8.0/discoverIntegralTypes.runtimeconfig.json
+/home/spencer/c#/discoverIntegralTypes/bin/Debug/net8.0/discoverIntegralTypes.dll
+/home/spencer/c#/discoverIntegralTypes/bin/Debug/net8.0/discoverIntegralTypes.pdb
+/home/spencer/c#/discoverIntegralTypes/obj/Debug/net8.0/discoverIntegralTypes.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/discoverIntegralTypes/obj/Debug/net8.0/discoverIntegralTypes.AssemblyInfoInputs.cache
+/home/spencer/c#/discoverIntegralTypes/obj/Debug/net8.0/discoverIntegralTypes.AssemblyInfo.cs
+/home/spencer/c#/discoverIntegralTypes/obj/Debug/net8.0/discoverIntegralTypes.csproj.CoreCompileInputs.cache
+/home/spencer/c#/discoverIntegralTypes/obj/Debug/net8.0/discoverIntegralTypes.sourcelink.json
+/home/spencer/c#/discoverIntegralTypes/obj/Debug/net8.0/discoverIntegralTypes.dll
+/home/spencer/c#/discoverIntegralTypes/obj/Debug/net8.0/refint/discoverIntegralTypes.dll
+/home/spencer/c#/discoverIntegralTypes/obj/Debug/net8.0/discoverIntegralTypes.pdb
+/home/spencer/c#/discoverIntegralTypes/obj/Debug/net8.0/discoverIntegralTypes.genruntimeconfig.cache
+/home/spencer/c#/discoverIntegralTypes/obj/Debug/net8.0/ref/discoverIntegralTypes.dll
