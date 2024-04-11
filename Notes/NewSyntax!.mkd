@@ -1,7 +1,7 @@
 Javascript / C# 
 === / == 
 
-
+string result = string.Format("{0} {1}!", first, second)
 .ToUpper() 
 .ToLower() 
 .Trim() - removes leading or trailing white space. 

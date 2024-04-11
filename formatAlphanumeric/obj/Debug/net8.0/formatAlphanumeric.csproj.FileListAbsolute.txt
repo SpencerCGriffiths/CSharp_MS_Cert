@@ -1,0 +1,15 @@
+/home/spencer/c#/formatAlphanumeric/bin/Debug/net8.0/formatAlphanumeric
+/home/spencer/c#/formatAlphanumeric/bin/Debug/net8.0/formatAlphanumeric.deps.json
+/home/spencer/c#/formatAlphanumeric/bin/Debug/net8.0/formatAlphanumeric.runtimeconfig.json
+/home/spencer/c#/formatAlphanumeric/bin/Debug/net8.0/formatAlphanumeric.dll
+/home/spencer/c#/formatAlphanumeric/bin/Debug/net8.0/formatAlphanumeric.pdb
+/home/spencer/c#/formatAlphanumeric/obj/Debug/net8.0/formatAlphanumeric.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/formatAlphanumeric/obj/Debug/net8.0/formatAlphanumeric.AssemblyInfoInputs.cache
+/home/spencer/c#/formatAlphanumeric/obj/Debug/net8.0/formatAlphanumeric.AssemblyInfo.cs
+/home/spencer/c#/formatAlphanumeric/obj/Debug/net8.0/formatAlphanumeric.csproj.CoreCompileInputs.cache
+/home/spencer/c#/formatAlphanumeric/obj/Debug/net8.0/formatAlphanumeric.sourcelink.json
+/home/spencer/c#/formatAlphanumeric/obj/Debug/net8.0/formatAlphanumeric.dll
+/home/spencer/c#/formatAlphanumeric/obj/Debug/net8.0/refint/formatAlphanumeric.dll
+/home/spencer/c#/formatAlphanumeric/obj/Debug/net8.0/formatAlphanumeric.pdb
+/home/spencer/c#/formatAlphanumeric/obj/Debug/net8.0/formatAlphanumeric.genruntimeconfig.cache
+/home/spencer/c#/formatAlphanumeric/obj/Debug/net8.0/ref/formatAlphanumeric.dll
