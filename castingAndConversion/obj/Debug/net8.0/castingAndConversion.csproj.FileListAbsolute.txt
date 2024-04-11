@@ -1,0 +1,15 @@
+/home/spencer/c#/castingAndConversion/bin/Debug/net8.0/castingAndConversion
+/home/spencer/c#/castingAndConversion/bin/Debug/net8.0/castingAndConversion.deps.json
+/home/spencer/c#/castingAndConversion/bin/Debug/net8.0/castingAndConversion.runtimeconfig.json
+/home/spencer/c#/castingAndConversion/bin/Debug/net8.0/castingAndConversion.dll
+/home/spencer/c#/castingAndConversion/bin/Debug/net8.0/castingAndConversion.pdb
+/home/spencer/c#/castingAndConversion/obj/Debug/net8.0/castingAndConversion.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/castingAndConversion/obj/Debug/net8.0/castingAndConversion.AssemblyInfoInputs.cache
+/home/spencer/c#/castingAndConversion/obj/Debug/net8.0/castingAndConversion.AssemblyInfo.cs
+/home/spencer/c#/castingAndConversion/obj/Debug/net8.0/castingAndConversion.csproj.CoreCompileInputs.cache
+/home/spencer/c#/castingAndConversion/obj/Debug/net8.0/castingAndConversion.sourcelink.json
+/home/spencer/c#/castingAndConversion/obj/Debug/net8.0/castingAndConversion.dll
+/home/spencer/c#/castingAndConversion/obj/Debug/net8.0/refint/castingAndConversion.dll
+/home/spencer/c#/castingAndConversion/obj/Debug/net8.0/castingAndConversion.pdb
+/home/spencer/c#/castingAndConversion/obj/Debug/net8.0/castingAndConversion.genruntimeconfig.cache
+/home/spencer/c#/castingAndConversion/obj/Debug/net8.0/ref/castingAndConversion.dll

@@ -1,0 +1,186 @@
+
+# Convert Data Types: Case and Conversion
+
+## Attempt to Add an Int and a String
+```csharp
+int first = 2; 
+string second = "4"; 
+int result = first + second; // This line will cause a compile error: cannot implicitly convert type 'string' to 'int'
+Console.WriteLine(result);
+```
+The compiler would not allow this because it cannot implicitly convert a string to an int.
+
+## Corrected Addition of Int and String
+```csharp
+int first = 2;
+string second = "4";
+string result = first + second; // Correct approach: concatenating the string
+Console.WriteLine(result); // Output = "24"
+```
+This demonstrates safe conversion where the integer is converted to a string and concatenated.
+
+## Widening Conversion
+```csharp
+int myInt = 3;
+Console.WriteLine($"int: {myInt}");
+
+decimal myDecimal = myInt;
+Console.WriteLine($"decimal: {myDecimal}");
+```
+An integer becoming a decimal is increasing the amount of information available, and the compiler can do this implicitly.
+
+## Casting
+```csharp
+decimal myDecimal = 3.14m;
+Console.WriteLine($"decimal: {myDecimal}");
+
+int myInt = (int)myDecimal;
+Console.WriteLine($"int: {myInt}");
+```
+This is taking control of the conversion and telling the compiler to drop or change information. As an Int holds less information than a decimal, this is a narrowing conversion.
+
+## Performing Data Conversions
+There are three methods:
+1. Use a helper method on the variable
+2. Use a helper method on the data type
+3. Use the Convert class' methods
+
+### Method on Variable
+```csharp
+int first = 5;
+int second = 7;
+string message = first.ToString() + second.ToString();
+Console.WriteLine(message);
+```
+
+### Method on the Data Type (i.e., Parsing)
+```csharp
+string first = "5";
+string second = "7";
+int sum = int.Parse(first) + int.Parse(second);
+Console.WriteLine(sum);
+```
+
+### Using the Convert Class Itself
+```csharp
+string value1 = "5";
+string value2 = "7";
+int result = Convert.ToInt32(value1) * Convert.ToInt32(value2);
+Console.WriteLine(result);
+```
+
+## Casting vs Converting Decimal to Int
+```csharp
+int value = (int)1.5m; // casting truncates
+Console.WriteLine(value);
+
+int value2 = Convert.ToInt32(1.5m); // converting rounds up
+Console.WriteLine(value2);
+```
+## Examine the TryParse() method
+
+```csharp
+string name = "Bob";
+Console.WriteLine(int.Parse(name)); 
+
+This will cause a System.FormatException: 'Input string was not in a correct format.'
+
+TryParse():
+1. attempts to parse a string into a given numeric data type
+2. if successful, stores it in an out parameter
+3. returns a bool indicating success
+
+##Out Parameters
+
+Methods can return a value or "void" i.e., no value. Methods can also return values through "out parameters".
+
+If the method has an OUT PARAMETER, OUT must be used before the variable. Once assigned, the OUT VARIABLE can be used throughout the code.
+
+Here the result is the "OUT PARAMETER" of the TRYPARSE method i.e., if it can be parsed, the result will be available attached to the variable result and as such usable within the code.
+
+string value = "102";
+int result = 0;
+if (int.TryParse(value, out result))
+{
+    Console.WriteLine($"Measurement: {result}"); // Output: Measurement: 102
+}
+else
+{
+    Console.WriteLine("Unable to report the measurement.");
+}
+
+string value2 = "bad";
+int result2 = 0;
+if (int.TryParse(value2, out result2))
+{
+    Console.WriteLine($"Measurement: {result2}");
+}
+else
+{
+    Console.WriteLine("Unable to report the measurement."); // output: Unable to report the measurement.
+}
+
+if (result2 > 0)
+    Console.WriteLine($"Measurement (w/ offset): {50 + result2}");
+```
+## Challenge:
+
+To instantiate a string array, enter the following "starter" code:
+
+```csharp
+string[] values = { "12.3", "45", "ABC", "11", "DEF" };
+```
+
+Create a looping structure that can be used to iterate through each string value in the array `values`. Complete the required code, placing it within the array looping structure code block. It's necessary to implement the following business rules in your code logic:
+
+**Rule 1:** If the value is alphabetical, concatenate it to form a message.  
+**Rule 2:** If the value is numeric, add it to the total.  
+**Rule 3:** The result should match the following output:
+
+**Output:**  
+Message: ABCDEF  
+Total: 68.3
+
+```csharp
+string[] values = { "12.3", "45", "ABC", "11", "DEF" };
+
+string message = ""; 
+decimal total = 0m;
+decimal result; // Declaration of 'result' for use with TryParse
+
+for (int i = 0; i < values.Length; i++)
+{
+    if (decimal.TryParse(values[i], out result))
+    {
+        total += result;
+    }
+    else
+    {
+        message += values[i];
+    }
+}
+
+Console.WriteLine($"Message: {message}");
+Console.WriteLine($"Total: {total}");
+```
+## Challenge 2: 
+
+```csharp
+int value1 = 12;
+decimal value2 = 6.2m;
+float value3 = 4.3f;
+```
+
+The Convert class is best for converting the fractional decimal numbers into whole integer numbers
+Convert.ToInt32() rounds up the way you would expect.
+
+```csharp
+int result1 = Convert.ToInt32(value1 / value2);
+Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
+
+decimal result2 = value2 / (decimal)value3;
+Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
+
+float result3 = value3 / value1;
+Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
+```
