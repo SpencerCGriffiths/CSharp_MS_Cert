@@ -1,0 +1,15 @@
+/home/spencer/c#/performOperationsOnArraysHelperMethods/obj/Debug/net8.0/performOperationsOnArraysHelperMethods.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/performOperationsOnArraysHelperMethods/obj/Debug/net8.0/performOperationsOnArraysHelperMethods.AssemblyInfoInputs.cache
+/home/spencer/c#/performOperationsOnArraysHelperMethods/obj/Debug/net8.0/performOperationsOnArraysHelperMethods.AssemblyInfo.cs
+/home/spencer/c#/performOperationsOnArraysHelperMethods/obj/Debug/net8.0/performOperationsOnArraysHelperMethods.csproj.CoreCompileInputs.cache
+/home/spencer/c#/performOperationsOnArraysHelperMethods/obj/Debug/net8.0/performOperationsOnArraysHelperMethods.sourcelink.json
+/home/spencer/c#/performOperationsOnArraysHelperMethods/bin/Debug/net8.0/performOperationsOnArraysHelperMethods
+/home/spencer/c#/performOperationsOnArraysHelperMethods/bin/Debug/net8.0/performOperationsOnArraysHelperMethods.deps.json
+/home/spencer/c#/performOperationsOnArraysHelperMethods/bin/Debug/net8.0/performOperationsOnArraysHelperMethods.runtimeconfig.json
+/home/spencer/c#/performOperationsOnArraysHelperMethods/bin/Debug/net8.0/performOperationsOnArraysHelperMethods.dll
+/home/spencer/c#/performOperationsOnArraysHelperMethods/bin/Debug/net8.0/performOperationsOnArraysHelperMethods.pdb
+/home/spencer/c#/performOperationsOnArraysHelperMethods/obj/Debug/net8.0/performOperationsOnArraysHelperMethods.dll
+/home/spencer/c#/performOperationsOnArraysHelperMethods/obj/Debug/net8.0/refint/performOperationsOnArraysHelperMethods.dll
+/home/spencer/c#/performOperationsOnArraysHelperMethods/obj/Debug/net8.0/performOperationsOnArraysHelperMethods.pdb
+/home/spencer/c#/performOperationsOnArraysHelperMethods/obj/Debug/net8.0/performOperationsOnArraysHelperMethods.genruntimeconfig.cache
+/home/spencer/c#/performOperationsOnArraysHelperMethods/obj/Debug/net8.0/ref/performOperationsOnArraysHelperMethods.dll

@@ -1,0 +1,202 @@
+# Exercise - Discover Sort() and Reverse()
+
+## .Sort()
+```csharp
+string[] pallets = { "B14", "A11", "B12", "A13" };
+
+Console.WriteLine("Sorted...");
+Array.Sort(pallets);
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+```
+
+### Here you're using the Sort() method of the Array class to sort the items in the array alphanumerically.
+
+## Reverse()
+```csharp
+string[] palletsReversed = { "B14", "A11", "B12", "A13" }; // Re-declaration for clarity in example
+
+Console.WriteLine("Sorted...");
+Array.Sort(palletsReversed);
+foreach (var pallet in palletsReversed)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+
+Console.WriteLine("");
+Console.WriteLine("Reversed...");
+Array.Reverse(palletsReversed);
+foreach (var pallet in palletsReversed)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+```
+### Here, you're using the Reverse() method of the Array class to reverse the order of items.
+
+# Explore Clear() and Resize()
+
+## Array.Clear() 
+
+### allows you to remove contents of specific elements and replace with default value. 
+
+Example:
+
+```csharp
+string[] pallets = { "B14", "A11", "B12", "A13" };
+Console.WriteLine("");
+
+Array.Clear(pallets, 0, 2);
+Console.WriteLine($"Clearing 2 ... count: {pallets.Length}");
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+```
+### Output:
+Clearing 2 ... count: 4
+-- 
+-- 
+-- B12
+-- A13
+
+### clears the values stored in the elements of the pallets array starting at 0 and clearing 2 elements
+
+## Array.Resize() 
+### method adds or removes elements from your array. 
+Example:
+
+```csharp
+Console.WriteLine("");
+Array.Resize(ref pallets, 6);
+Console.WriteLine($"Resizing 6 ... count: {pallets.Length}");
+
+pallets[4] = "C01";
+pallets[5] = "C02";
+
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+```
+
+### Output:
+Resizing 6 ... count: 6
+-- 
+-- 
+-- B12
+-- A13
+-- C01
+-- C02
+
+# Split() and Join()
+
+## ToCharArray() to reverse a string
+
+```csharp
+string value = "abc123";
+char[] valueArray = value.ToCharArray();
+Array.Reverse(valueArray);
+string result = new string(valueArray);
+Console.WriteLine(result);
+```
+
+### Output
+321cba
+
+## Join()
+
+```csharp
+string value = "abc123";
+char[] valueArray = value.ToCharArray();
+Array.Reverse(valueArray);
+// string result = new string(valueArray);
+string result = String.Join(",", valueArray);
+Console.WriteLine(result);
+```
+
+### Output
+3,2,1,c,b,a
+
+
+## Split()
+
+```csharp
+string value = "abc123";
+char[] valueArray = value.ToCharArray();
+Array.Reverse(valueArray);
+// string result = new string(valueArray);
+string result = String.Join(",", valueArray);
+Console.WriteLine(result);
+
+string[] items = result.Split(',');
+foreach (string item in items)
+{
+    Console.WriteLine(item);
+}
+```
+### output
+3,2,1,c,b,a
+3
+2
+1
+c
+b
+a
+
+# Challenge
+
+## Produce Output: 
+ehT kciuq nworb xof spmuj revo eht yzal god
+
+```csharp
+string pangram = "The quick brown fox jumps over the lazy dog";
+
+string[] words = pangram.Split(' ');
+string result = ""; 
+
+foreach (string word in words)
+{
+    char[] wordArr = word.ToCharArray();
+    Array.Reverse(wordArr);
+    string wordBack = new string (wordArr);
+    result += $"{wordBack} ";
+}
+Console.WriteLine(result.Trim());
+```
+
+### Note you can use Join() to join the resultant array but would require you to declare an array or space in memory to allocate each reversed word and as such is no more memory efficient than concatonation. 
+
+
+# Challenge- Complete a challenge to parse a string of orders, sort the orders and tag possible errors
+
+### Output: 
+A345
+B123
+B177
+B179
+C15     - Error
+C234
+C235
+G3003   - Error
+
+### Data comes in many formats. In this challenge you have to parse the individual "Order IDs", and output the "OrderIDs" sorted and tagged as "Error" if they aren't exactly four characters in length.
+
+```csharp
+string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179";
+string[] items = orderStream.Split(',');
+Array.Sort(items);
+
+foreach (var item in items)
+{
+    if (item.Length == 4)
+    {
+        Console.WriteLine(item);
+    }
+    else
+    {
+        Console.WriteLine(item + "\t- Error");
+    }
+};
+```
