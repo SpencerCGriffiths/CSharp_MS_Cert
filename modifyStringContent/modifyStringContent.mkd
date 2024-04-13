@@ -1,0 +1,404 @@
+## IndexOf() 
+
+Index of will find the index of a character:  
+
+```csharp
+string message = "Find what is (inside the parentheses)";
+
+int openingPosition = message.IndexOf('(');
+int closingPosition = message.IndexOf(')');
+
+Console.WriteLine(openingPosition);
+Console.WriteLine(closingPosition);
+```
+
+### Output: 
+13
+36
+
+## Substring()
+
+e.g## IndexOf() 
+
+Index of will find the index of a character:  
+
+```csharp
+string message = "Find what is (inside the parentheses)";
+
+int openingPosition = message.IndexOf('(');
+int closingPosition = message.IndexOf(')');
+
+Console.WriteLine(openingPosition);
+Console.WriteLine(closingPosition);
+```
+
+### Output: 
+13
+36
+
+## Substring()
+
+e.g
+
+```csharp
+string message = "Find what is (inside the parentheses)";
+
+int openingPosition = message.IndexOf('(');
+int closingPosition = message.IndexOf(')');
+
+openingPosition += 1; (strings are 0 index)
+
+int length = closingPosition - openingPosition;
+Console.WriteLine(message.Substring(openingPosition, length));
+```
+###Output: 
+inside the parentheses
+
+
+## Magic Values: 
+
+When using IndexOf avoid magic values i.e. hard coded values... "<span>" would be a "magic strings" and hardcoded numeric values like 6 are known as "magic numbers". 
+Removing hard coded values limits the chance of making an error throughout the code when locating a frequent value such as a span:
+
+```csharp
+string message = "What is the value <span>between the tags</span>?";
+
+const string openSpan = "<span>";
+const string closeSpan = "</span>";
+
+int openingPosition = message.IndexOf(openSpan);
+int closingPosition = message.IndexOf(closeSpan);
+
+openingPosition += openSpan.Length;
+int length = closingPosition - openingPosition;
+Console.WriteLine(message.Substring(openingPosition, length));
+```
+
+##IndexOfAny() and LastIndexOf()
+
+##IndexOfAny()
+
+```csharp
+tring message = "(What if) I am (only interested) in the last (set of parentheses)?";
+int openingPosition = message.LastIndexOf('(');
+
+openingPosition += 1;
+int closingPosition = message.LastIndexOf(')');
+int length = closingPosition - openingPosition;
+Console.WriteLine(message.Substring(openingPosition, length));
+```
+
+### Output: 
+set of parentheses
+
+
+## IndexOfAny() & Data sets
+
+Index of Any is combined with a character array and returns the first instance of each character within that array: 
+
+```csharp
+string message = "Help (find) the {opening symbols}";
+Console.WriteLine($"Searching THIS Message: {message}");
+char[] openSymbols = { '[', '{', '(' };
+int startPosition = 5;
+int openingPosition = message.IndexOfAny(openSymbols);
+Console.WriteLine($"Found WITHOUT using startPosition: {message.Substring(openingPosition)}");
+
+openingPosition = message.IndexOfAny(openSymbols, startPosition);
+Console.WriteLine($"Found WITH using startPosition {startPosition}:  {message.Substring(openingPosition)}");
+```
+### Output: 
+Searching THIS message: Help (find) the {opening symbols}
+Found WITHOUT using startPosition: (find) the {opening symbols}
+Found WITH using startPosition 5:  (find) the {opening symbols}
+
+## IndexOfAny can be combined with more complex logic to find opening and closing brackets as below: 
+
+```csharp
+string message = "(What if) I have [different symbols] but every {open symbol} needs a [matching closing symbol]?";
+
+The IndexOfAny() helper method requires a char array of characters. 
+You want to look for:
+
+char[] openSymbols = { '[', '{', '(' };
+
+You'll use a slightly different technique for iterating through 
+the characters in the string. This time, use the closing 
+position of the previous iteration as the starting index for the 
+next open symbol. So, you need to initialize the closingPosition 
+variable to zero:
+
+int closingPosition = 0;
+
+while (true)
+{
+    int openingPosition = message.IndexOfAny(openSymbols, closingPosition);
+
+    if (openingPosition == -1) break;
+
+    string currentSymbol = message.Substring(openingPosition, 1);
+
+    Now  find the matching closing symbol
+    char matchingSymbol = ' ';
+
+    switch (currentSymbol)
+    {
+        case "[":
+            matchingSymbol = ']';
+            break;
+        case "{":
+            matchingSymbol = '}';
+            break;
+        case "(":
+            matchingSymbol = ')';
+            break;
+    }
+
+    To find the closingPosition, use an overload of the IndexOf method to specify 
+    that the search for the matchingSymbol should start at the openingPosition in the string. 
+
+    openingPosition += 1;
+    closingPosition = message.IndexOf(matchingSymbol, openingPosition);
+
+    Finally, use the techniques you've already learned to display the sub-string:
+
+    int length = closingPosition - openingPosition;
+    Console.WriteLine(message.Substring(openingPosition, length));
+}
+```
+
+## Remove() and Replace()
+
+## Remove({index start}, {index end}) 
+This is typicall used when there is a standard and consistent position of the characters you want to remove. 
+
+```csharp
+string data = "12345John Smith          5000  3  ";
+string updatedData = data.Remove(5, 20);
+Console.WriteLine(updatedData);
+```
+### Output: 
+123455000  3  
+
+## Replace({value to be replaced}, {new value})
+Used when you want to replace one or more character with different or no character. It differs to other methods as it replaces every instance of the character: 
+
+```csharp
+string message = "This--is--ex-amp-le--da-ta";
+message = message.Replace("--", " ");
+message = message.Replace("-", "");
+Console.WriteLine(message);
+```
+### Output: 
+This is example data
+
+## Extract Replace and Remove Data from input String- Challenge: 
+
+
+```csharp
+const string input = "<div><h2>Widgets &trade;</h2><span>5000</span></div>";
+
+string quantity = "";
+string output = "";
+
+string openSpan = "<span>"; 
+string closeSpan = "</span>";
+int openIndex = input.IndexOf(openSpan);
+int closeIndex = input.IndexOf(closeSpan); 
+openIndex += 6;
+int length = closeIndex - openIndex;
+quantity += input.Substring(openIndex, length);
+string openDiv = "<div>";
+string closeDiv = "</div>";
+int openI = input.IndexOf(openDiv);
+int closeI = input.IndexOf(closeDiv); 
+openI += 5; 
+int length2 = closeI - openI;
+output += input.Substring(openI, length2);
+Console.WriteLine($"Quantity: {quantity} \nOutput: {output}");
+```
+### Output: 
+Quantity: 5000
+Output: <h2>Widgets &reg;</h2><span>5000</span>
+
+
+```csharp
+string message = "Find what is (inside the parentheses)";
+
+int openingPosition = message.IndexOf('(');
+int closingPosition = message.IndexOf(')');
+
+openingPosition += 1; (strings are 0 index)
+
+int length = closingPosition - openingPosition;
+Console.WriteLine(message.Substring(openingPosition, length));
+```
+###Output: 
+inside the parentheses
+
+
+## Magic Values: 
+
+When using IndexOf avoid magic values i.e. hard coded values... "<span>" would be a "magic strings" and hardcoded numeric values like 6 are known as "magic numbers". 
+Removing hard coded values limits the chance of making an error throughout the code when locating a frequent value such as a span:
+
+```csharp
+string message = "What is the value <span>between the tags</span>?";
+
+const string openSpan = "<span>";
+const string closeSpan = "</span>";
+
+int openingPosition = message.IndexOf(openSpan);
+int closingPosition = message.IndexOf(closeSpan);
+
+openingPosition += openSpan.Length;
+int length = closingPosition - openingPosition;
+Console.WriteLine(message.Substring(openingPosition, length));
+```
+
+##IndexOfAny() and LastIndexOf()
+
+##IndexOfAny()
+
+```csharp
+tring message = "(What if) I am (only interested) in the last (set of parentheses)?";
+int openingPosition = message.LastIndexOf('(');
+
+openingPosition += 1;
+int closingPosition = message.LastIndexOf(')');
+int length = closingPosition - openingPosition;
+Console.WriteLine(message.Substring(openingPosition, length));
+```
+
+### Output: 
+set of parentheses
+
+
+## IndexOfAny() & Data sets
+
+Index of Any is combined with a character array and returns the first instance of each character within that array: 
+
+```csharp
+string message = "Help (find) the {opening symbols}";
+Console.WriteLine($"Searching THIS Message: {message}");
+char[] openSymbols = { '[', '{', '(' };
+int startPosition = 5;
+int openingPosition = message.IndexOfAny(openSymbols);
+Console.WriteLine($"Found WITHOUT using startPosition: {message.Substring(openingPosition)}");
+
+openingPosition = message.IndexOfAny(openSymbols, startPosition);
+Console.WriteLine($"Found WITH using startPosition {startPosition}:  {message.Substring(openingPosition)}");
+```
+### Output: 
+Searching THIS message: Help (find) the {opening symbols}
+Found WITHOUT using startPosition: (find) the {opening symbols}
+Found WITH using startPosition 5:  (find) the {opening symbols}
+
+## IndexOfAny can be combined with more complex logic to find opening and closing brackets as below: 
+
+```csharp
+string message = "(What if) I have [different symbols] but every {open symbol} needs a [matching closing symbol]?";
+
+The IndexOfAny() helper method requires a char array of characters. 
+You want to look for:
+
+char[] openSymbols = { '[', '{', '(' };
+
+You'll use a slightly different technique for iterating through 
+the characters in the string. This time, use the closing 
+position of the previous iteration as the starting index for the 
+next open symbol. So, you need to initialize the closingPosition 
+variable to zero:
+
+int closingPosition = 0;
+
+while (true)
+{
+    int openingPosition = message.IndexOfAny(openSymbols, closingPosition);
+
+    if (openingPosition == -1) break;
+
+    string currentSymbol = message.Substring(openingPosition, 1);
+
+    Now  find the matching closing symbol
+    char matchingSymbol = ' ';
+
+    switch (currentSymbol)
+    {
+        case "[":
+            matchingSymbol = ']';
+            break;
+        case "{":
+            matchingSymbol = '}';
+            break;
+        case "(":
+            matchingSymbol = ')';
+            break;
+    }
+
+    To find the closingPosition, use an overload of the IndexOf method to specify 
+    that the search for the matchingSymbol should start at the openingPosition in the string. 
+
+    openingPosition += 1;
+    closingPosition = message.IndexOf(matchingSymbol, openingPosition);
+
+    Finally, use the techniques you've already learned to display the sub-string:
+
+    int length = closingPosition - openingPosition;
+    Console.WriteLine(message.Substring(openingPosition, length));
+}
+```
+
+## Remove() and Replace()
+
+## Remove({index start}, {index end}) 
+This is typicall used when there is a standard and consistent position of the characters you want to remove. 
+
+```csharp
+string data = "12345John Smith          5000  3  ";
+string updatedData = data.Remove(5, 20);
+Console.WriteLine(updatedData);
+```
+### Output: 
+123455000  3  
+
+## Replace({value to be replaced}, {new value})
+Used when you want to replace one or more character with different or no character. It differs to other methods as it replaces every instance of the character: 
+
+```csharp
+string message = "This--is--ex-amp-le--da-ta";
+message = message.Replace("--", " ");
+message = message.Replace("-", "");
+Console.WriteLine(message);
+```
+### Output: 
+This is example data
+
+## Extract Replace and Remove Data from input String- Challenge: 
+
+
+```csharp
+const string input = "<div><h2>Widgets &trade;</h2><span>5000</span></div>";
+
+string quantity = "";
+string output = "";
+
+string openSpan = "<span>"; 
+string closeSpan = "</span>";
+int openIndex = input.IndexOf(openSpan);
+int closeIndex = input.IndexOf(closeSpan); 
+openIndex += 6;
+int length = closeIndex - openIndex;
+quantity += input.Substring(openIndex, length);
+string openDiv = "<div>";
+string closeDiv = "</div>";
+int openI = input.IndexOf(openDiv);
+int closeI = input.IndexOf(closeDiv); 
+openI += 5; 
+int length2 = closeI - openI;
+output += input.Substring(openI, length2);
+Console.WriteLine($"Quantity: {quantity} \nOutput: {output}");
+```
+### Output: 
+Quantity: 5000
+Output: <h2>Widgets &reg;</h2><span>5000</span>

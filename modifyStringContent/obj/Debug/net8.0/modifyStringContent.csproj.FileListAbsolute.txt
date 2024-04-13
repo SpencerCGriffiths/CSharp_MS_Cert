@@ -1,0 +1,15 @@
+/home/spencer/c#/modifyStringContent/bin/Debug/net8.0/modifyStringContent
+/home/spencer/c#/modifyStringContent/bin/Debug/net8.0/modifyStringContent.deps.json
+/home/spencer/c#/modifyStringContent/bin/Debug/net8.0/modifyStringContent.runtimeconfig.json
+/home/spencer/c#/modifyStringContent/bin/Debug/net8.0/modifyStringContent.dll
+/home/spencer/c#/modifyStringContent/bin/Debug/net8.0/modifyStringContent.pdb
+/home/spencer/c#/modifyStringContent/obj/Debug/net8.0/modifyStringContent.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/modifyStringContent/obj/Debug/net8.0/modifyStringContent.AssemblyInfoInputs.cache
+/home/spencer/c#/modifyStringContent/obj/Debug/net8.0/modifyStringContent.AssemblyInfo.cs
+/home/spencer/c#/modifyStringContent/obj/Debug/net8.0/modifyStringContent.csproj.CoreCompileInputs.cache
+/home/spencer/c#/modifyStringContent/obj/Debug/net8.0/modifyStringContent.sourcelink.json
+/home/spencer/c#/modifyStringContent/obj/Debug/net8.0/modifyStringContent.dll
+/home/spencer/c#/modifyStringContent/obj/Debug/net8.0/refint/modifyStringContent.dll
+/home/spencer/c#/modifyStringContent/obj/Debug/net8.0/modifyStringContent.pdb
+/home/spencer/c#/modifyStringContent/obj/Debug/net8.0/modifyStringContent.genruntimeconfig.cache
+/home/spencer/c#/modifyStringContent/obj/Debug/net8.0/ref/modifyStringContent.dll
