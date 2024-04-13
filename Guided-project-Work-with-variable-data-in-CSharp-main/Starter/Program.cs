@@ -11,6 +11,8 @@ string suggestedDonation = "";
 int maxPets = 8;
 string? readResult;
 string menuSelection = "";
+string? searchCriteria;
+int searchCount = 0;
 
 // #3 array used to store runtime data, there is no persisted data
 string[,] ourAnimals = new string[maxPets, 7];
@@ -82,7 +84,7 @@ for (int i = 0; i < maxPets; i++)
     if(!decimal.TryParse(suggestedDonation, out decimal decimalDonation)) { 
         decimalDonation = 45.00m;
     }
-    
+
     ourAnimals[i, 6] = $"Suggested Donation: {decimalDonation:C2}";
 
     
@@ -129,12 +131,63 @@ do
 
         case "2":
             // Display all dogs with a specified characteristic
-            Console.WriteLine("\nUNDER CONSTRUCTION - please check back next month to see progress.");
+        bool research = true;
+        do 
+        { 
+            searchCriteria = "";
+            searchCount = 0;
+            Console.WriteLine("\nPlease enter a characteristic you would like to seach for to filter our dogs: \n");
+            searchCriteria = Console.ReadLine();
+            Console.WriteLine($"\nHere are the result of your search for: \n{searchCriteria}");
+            for (int i = 0; i < maxPets; i++)
+            {
+             if(ourAnimals[i,1].Contains("dog")) 
+             {
+                if(ourAnimals[i, 4].Contains(searchCriteria) || ourAnimals[i, 5].Contains(searchCriteria)) {
+                    searchCount += 1;
+                    Console.WriteLine($"\nThe following entries all included your search term: \n");
+                    for (int j = 0; j < 7; j++)
+                    {
+                        Console.WriteLine($"{ourAnimals[i, j]}");
+                    }
+                }
+             }   
+            }
+            if(searchCount == 0) { 
+                 Console.WriteLine($"\nNo dogs were found with the search criteria {searchCriteria}");
+            } else { 
+                Console.WriteLine($"\nA total of {searchCount} dogs were found for you");
+            }
+
+            bool validInput;
+            do
+            {
+                Console.WriteLine("\nWould you like to search again? (yes/no)");
+                string readSearch = Console.ReadLine(); 
+                readSearch = readSearch.ToLower(); 
+
+                switch (readSearch)
+                {
+                    case "yes":
+                        research = true; 
+                        validInput = true;
+                        break;
+                    case "no":
+                        research = false; 
+                        validInput = true;
+                        break;
+                    default:
+                        Console.WriteLine("This is not a valid input.");
+                        validInput = false;
+                        break;
+                }
+            } while (!validInput);
+
+
+        } while (research); 
+
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
-            break;
-
-        default:
             break;
     }
 
@@ -144,4 +197,15 @@ do
 /* 
 Task 1- 
 Add Suggested Donation Variable to ourAnimals array. Add suggested donation amounts for each animal. Implement a default amount when info is missing. 
+
+Task 2- 
+fill in the code for selection 2 (filter by characteristic)
+
+1. Gather user input for the pet characteristic search term
+
+2. Loop through the animals array and identify "dogs"
+
+3. For each dog, search the pet description for a term match
+
+4. Display the dogs that have a term match
 */ 
