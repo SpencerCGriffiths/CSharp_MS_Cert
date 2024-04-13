@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/spencer/c#/Guided-project-workWithVariableData/Guided-project-workWithVariableData.csproj",
-      "projectName": "Guided-project-workWithVariableData",
-      "projectPath": "/home/spencer/c#/Guided-project-workWithVariableData/Guided-project-workWithVariableData.csproj",
+      "projectUniqueName": "/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/Starter.csproj",
+      "projectName": "Starter",
+      "projectPath": "/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/Starter.csproj",
       "packagesPath": "/home/spencer/.nuget/packages/",
-      "outputPath": "/home/spencer/c#/Guided-project-workWithVariableData/obj/",
+      "outputPath": "/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/spencer/.nuget/NuGet/NuGet.Config"

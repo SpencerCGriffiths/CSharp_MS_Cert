@@ -1,0 +1,15 @@
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/bin/Debug/net7.0/Starter
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/bin/Debug/net7.0/Starter.deps.json
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/bin/Debug/net7.0/Starter.runtimeconfig.json
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/bin/Debug/net7.0/Starter.dll
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/bin/Debug/net7.0/Starter.pdb
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.AssemblyInfoInputs.cache
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.AssemblyInfo.cs
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.csproj.CoreCompileInputs.cache
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.sourcelink.json
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.dll
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/refint/Starter.dll
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.pdb
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.genruntimeconfig.cache
+/home/spencer/c#/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/ref/Starter.dll

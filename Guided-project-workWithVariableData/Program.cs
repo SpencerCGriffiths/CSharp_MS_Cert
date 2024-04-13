@@ -1,8 +1,0 @@
-﻿/*
-```csharp
-```csharp
-```csharp
-```csharp
-
-*/
-
