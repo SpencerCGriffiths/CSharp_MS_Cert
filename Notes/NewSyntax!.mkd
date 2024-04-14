@@ -7,6 +7,8 @@ string result = string.Format("{0} {1}!", first, second)
 .Trim() - removes leading or trailing white space. 
 .Contains()
 .Split()
+.Take() - used to fetch a specified number of elements from the beginning of a collection. For example, if you have a list of integers and you want to select the first three elements of that list, you would use .Take(3).
+
 int.TryParse()
 .IndexOf()
 .Remove(): 
