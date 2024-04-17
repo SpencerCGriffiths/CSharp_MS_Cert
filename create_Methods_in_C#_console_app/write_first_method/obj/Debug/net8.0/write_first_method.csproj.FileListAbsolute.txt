@@ -1,0 +1,15 @@
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/bin/Debug/net8.0/write_first_method
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/bin/Debug/net8.0/write_first_method.deps.json
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/bin/Debug/net8.0/write_first_method.runtimeconfig.json
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/bin/Debug/net8.0/write_first_method.dll
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/bin/Debug/net8.0/write_first_method.pdb
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/obj/Debug/net8.0/write_first_method.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/obj/Debug/net8.0/write_first_method.AssemblyInfoInputs.cache
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/obj/Debug/net8.0/write_first_method.AssemblyInfo.cs
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/obj/Debug/net8.0/write_first_method.csproj.CoreCompileInputs.cache
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/obj/Debug/net8.0/write_first_method.sourcelink.json
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/obj/Debug/net8.0/write_first_method.dll
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/obj/Debug/net8.0/refint/write_first_method.dll
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/obj/Debug/net8.0/write_first_method.pdb
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/obj/Debug/net8.0/write_first_method.genruntimeconfig.cache
+/home/spencer/c#/create_Methods_in_C#_console_app/write_first_method/obj/Debug/net8.0/ref/write_first_method.dll

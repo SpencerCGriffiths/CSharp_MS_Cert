@@ -1,0 +1,15 @@
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/obj/Debug/net8.0/Guided_Project-Plan_A_Petting_Zoo_Visit.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/obj/Debug/net8.0/Guided_Project-Plan_A_Petting_Zoo_Visit.AssemblyInfoInputs.cache
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/obj/Debug/net8.0/Guided_Project-Plan_A_Petting_Zoo_Visit.AssemblyInfo.cs
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/obj/Debug/net8.0/Guided_Project-Plan_A_Petting_Zoo_Visit.csproj.CoreCompileInputs.cache
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/obj/Debug/net8.0/Guided_Project-Plan_A_Petting_Zoo_Visit.sourcelink.json
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/bin/Debug/net8.0/Guided_Project-Plan_A_Petting_Zoo_Visit
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/bin/Debug/net8.0/Guided_Project-Plan_A_Petting_Zoo_Visit.deps.json
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/bin/Debug/net8.0/Guided_Project-Plan_A_Petting_Zoo_Visit.runtimeconfig.json
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/bin/Debug/net8.0/Guided_Project-Plan_A_Petting_Zoo_Visit.dll
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/bin/Debug/net8.0/Guided_Project-Plan_A_Petting_Zoo_Visit.pdb
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/obj/Debug/net8.0/Guided_Project-Plan_A_Petting_Zoo_Visit.dll
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/obj/Debug/net8.0/refint/Guided_Project-Plan_A_Petting_Zoo_Visit.dll
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/obj/Debug/net8.0/Guided_Project-Plan_A_Petting_Zoo_Visit.pdb
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/obj/Debug/net8.0/Guided_Project-Plan_A_Petting_Zoo_Visit.genruntimeconfig.cache
+/home/spencer/c#/create_Methods_in_C#_console_app/Guided_Project-Plan_A_Petting_Zoo_Visit/obj/Debug/net8.0/ref/Guided_Project-Plan_A_Petting_Zoo_Visit.dll

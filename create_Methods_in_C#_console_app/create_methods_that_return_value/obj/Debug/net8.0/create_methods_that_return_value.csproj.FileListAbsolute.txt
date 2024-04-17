@@ -1,0 +1,15 @@
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/bin/Debug/net8.0/create_methods_that_return_value
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/bin/Debug/net8.0/create_methods_that_return_value.deps.json
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/bin/Debug/net8.0/create_methods_that_return_value.runtimeconfig.json
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/bin/Debug/net8.0/create_methods_that_return_value.dll
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/bin/Debug/net8.0/create_methods_that_return_value.pdb
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/obj/Debug/net8.0/create_methods_that_return_value.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/obj/Debug/net8.0/create_methods_that_return_value.AssemblyInfoInputs.cache
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/obj/Debug/net8.0/create_methods_that_return_value.AssemblyInfo.cs
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/obj/Debug/net8.0/create_methods_that_return_value.csproj.CoreCompileInputs.cache
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/obj/Debug/net8.0/create_methods_that_return_value.sourcelink.json
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/obj/Debug/net8.0/create_methods_that_return_value.dll
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/obj/Debug/net8.0/refint/create_methods_that_return_value.dll
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/obj/Debug/net8.0/create_methods_that_return_value.pdb
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/obj/Debug/net8.0/create_methods_that_return_value.genruntimeconfig.cache
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_that_return_value/obj/Debug/net8.0/ref/create_methods_that_return_value.dll

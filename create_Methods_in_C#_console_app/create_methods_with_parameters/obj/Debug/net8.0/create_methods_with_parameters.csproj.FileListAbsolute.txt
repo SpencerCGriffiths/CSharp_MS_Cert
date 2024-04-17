@@ -1,0 +1,15 @@
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/obj/Debug/net8.0/create_methods_with_parameters.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/obj/Debug/net8.0/create_methods_with_parameters.AssemblyInfoInputs.cache
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/obj/Debug/net8.0/create_methods_with_parameters.AssemblyInfo.cs
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/obj/Debug/net8.0/create_methods_with_parameters.csproj.CoreCompileInputs.cache
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/obj/Debug/net8.0/create_methods_with_parameters.sourcelink.json
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/bin/Debug/net8.0/create_methods_with_parameters
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/bin/Debug/net8.0/create_methods_with_parameters.deps.json
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/bin/Debug/net8.0/create_methods_with_parameters.runtimeconfig.json
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/bin/Debug/net8.0/create_methods_with_parameters.dll
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/bin/Debug/net8.0/create_methods_with_parameters.pdb
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/obj/Debug/net8.0/create_methods_with_parameters.dll
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/obj/Debug/net8.0/refint/create_methods_with_parameters.dll
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/obj/Debug/net8.0/create_methods_with_parameters.pdb
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/obj/Debug/net8.0/create_methods_with_parameters.genruntimeconfig.cache
+/home/spencer/c#/create_Methods_in_C#_console_app/create_methods_with_parameters/obj/Debug/net8.0/ref/create_methods_with_parameters.dll
