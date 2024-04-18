@@ -12,3 +12,4 @@
 /home/spencer/c#/battleGame/obj/Debug/net8.0/battleGame.pdb
 /home/spencer/c#/battleGame/obj/Debug/net8.0/battleGame.genruntimeconfig.cache
 /home/spencer/c#/battleGame/obj/Debug/net8.0/ref/battleGame.dll
+/home/spencer/c#/battleGame/obj/Debug/net8.0/battleGame.sourcelink.json

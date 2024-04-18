@@ -12,3 +12,4 @@
 /home/spencer/c#/doandWhileProjects/obj/Debug/net8.0/do.pdb
 /home/spencer/c#/doandWhileProjects/obj/Debug/net8.0/do.genruntimeconfig.cache
 /home/spencer/c#/doandWhileProjects/obj/Debug/net8.0/ref/do.dll
+/home/spencer/c#/doandWhileProjects/obj/Debug/net8.0/do.sourcelink.json

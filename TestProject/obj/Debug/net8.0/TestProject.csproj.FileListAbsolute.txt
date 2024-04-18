@@ -12,3 +12,11 @@
 /home/spencer/c#/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.pdb
 /home/spencer/c#/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.genruntimeconfig.cache
 /home/spencer/c#/CsharpProjects/TestProject/obj/Debug/net8.0/ref/TestProject.dll
+/home/spencer/c#/TestProject/obj/Debug/net8.0/TestProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfoInputs.cache
+/home/spencer/c#/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfo.cs
+/home/spencer/c#/TestProject/obj/Debug/net8.0/TestProject.csproj.CoreCompileInputs.cache
+/home/spencer/c#/TestProject/obj/Debug/net8.0/TestProject.sourcelink.json
+/home/spencer/c#/TestProject/obj/Debug/net8.0/TestProject.dll
+/home/spencer/c#/TestProject/obj/Debug/net8.0/refint/TestProject.dll
+/home/spencer/c#/TestProject/obj/Debug/net8.0/TestProject.pdb

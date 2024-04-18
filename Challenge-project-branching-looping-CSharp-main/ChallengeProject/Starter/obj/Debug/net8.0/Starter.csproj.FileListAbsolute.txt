@@ -12,3 +12,4 @@
 /home/spencer/c#/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.pdb
 /home/spencer/c#/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.genruntimeconfig.cache
 /home/spencer/c#/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/ref/Starter.dll
+/home/spencer/c#/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.sourcelink.json

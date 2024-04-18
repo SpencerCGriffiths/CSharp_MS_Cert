@@ -1,0 +1,15 @@
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/bin/Debug/net8.0/Implement_VSCode_DebuggingTools
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/bin/Debug/net8.0/Implement_VSCode_DebuggingTools.deps.json
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/bin/Debug/net8.0/Implement_VSCode_DebuggingTools.runtimeconfig.json
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/bin/Debug/net8.0/Implement_VSCode_DebuggingTools.dll
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/bin/Debug/net8.0/Implement_VSCode_DebuggingTools.pdb
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/obj/Debug/net8.0/Implement_VSCode_DebuggingTools.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/obj/Debug/net8.0/Implement_VSCode_DebuggingTools.AssemblyInfoInputs.cache
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/obj/Debug/net8.0/Implement_VSCode_DebuggingTools.AssemblyInfo.cs
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/obj/Debug/net8.0/Implement_VSCode_DebuggingTools.csproj.CoreCompileInputs.cache
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/obj/Debug/net8.0/Implement_VSCode_DebuggingTools.sourcelink.json
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/obj/Debug/net8.0/Implement_VSCode_DebuggingTools.dll
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/obj/Debug/net8.0/refint/Implement_VSCode_DebuggingTools.dll
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/obj/Debug/net8.0/Implement_VSCode_DebuggingTools.pdb
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/obj/Debug/net8.0/Implement_VSCode_DebuggingTools.genruntimeconfig.cache
+/home/spencer/c#/DebugC#ConsoleApplications/Implement_VSCode_DebuggingTools/obj/Debug/net8.0/ref/Implement_VSCode_DebuggingTools.dll

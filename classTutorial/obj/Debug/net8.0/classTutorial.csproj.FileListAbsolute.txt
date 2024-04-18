@@ -12,3 +12,4 @@
 /home/spencer/c#/classTutorial/obj/Debug/net8.0/classTutorial.pdb
 /home/spencer/c#/classTutorial/obj/Debug/net8.0/classTutorial.genruntimeconfig.cache
 /home/spencer/c#/classTutorial/obj/Debug/net8.0/ref/classTutorial.dll
+/home/spencer/c#/classTutorial/obj/Debug/net8.0/classTutorial.sourcelink.json

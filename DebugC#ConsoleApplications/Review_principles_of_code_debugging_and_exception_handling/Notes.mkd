@@ -1,0 +1,28 @@
+# Testing, Debugging, Exception Handling: 
+
+## Functional Vs Non Functional Testing
+
+### Functional Testing: 
+1. Unit testing 
+2. Integration testing 
+3. System testing 
+4. Acceptance testing
+
+
+### NonFunctional Testing: 
+1. Security testing 
+2. Performance testing 
+3. Usability testing 
+4. Compatibility testing
+
+## What is a Debugger: 
+A debugger is a software tool used to observe and control the execution flow of your program with an analytical approach. 
+
+Debuggers connect to your code either: 
+1. Hosting your program in its own execution process
+2. Running as a seperate process thats attached to your running program 
+
+## Exceptions: 
+
+Exceptions are variables that are thrown by code that encounters an error. 
+

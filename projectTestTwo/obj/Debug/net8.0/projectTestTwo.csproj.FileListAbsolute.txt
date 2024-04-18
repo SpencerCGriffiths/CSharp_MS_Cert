@@ -12,3 +12,4 @@
 /home/spencer/c#/projectTestTwo/obj/Debug/net8.0/projectTestTwo.pdb
 /home/spencer/c#/projectTestTwo/obj/Debug/net8.0/projectTestTwo.genruntimeconfig.cache
 /home/spencer/c#/projectTestTwo/obj/Debug/net8.0/ref/projectTestTwo.dll
+/home/spencer/c#/projectTestTwo/obj/Debug/net8.0/projectTestTwo.sourcelink.json

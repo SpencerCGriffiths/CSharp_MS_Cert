@@ -1,0 +1,15 @@
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/bin/Debug/net8.0/Final
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/bin/Debug/net8.0/Final.deps.json
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/bin/Debug/net8.0/Final.runtimeconfig.json
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/bin/Debug/net8.0/Final.dll
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/bin/Debug/net8.0/Final.pdb
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.GeneratedMSBuildEditorConfig.editorconfig
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.AssemblyInfoInputs.cache
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.AssemblyInfo.cs
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.csproj.CoreCompileInputs.cache
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.sourcelink.json
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.dll
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/refint/Final.dll
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.pdb
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.genruntimeconfig.cache
+/home/spencer/c#/Guided-project-branching-looping-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/ref/Final.dll

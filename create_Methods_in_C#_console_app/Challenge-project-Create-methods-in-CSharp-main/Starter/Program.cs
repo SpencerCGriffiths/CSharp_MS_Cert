@@ -140,23 +140,19 @@ void Move()
     int lastX = playerX;
     int lastY = playerY;
     int value = 1; 
-    bool pause = false; 
     
     if(playerIndex == 1)
     { 
          value =  3;
 
     }
+    
     if(playerIndex == 2)
-    { 
-        pause = true; 
-    }
-    if(pause)
     { 
         Console.WriteLine("uh oh... pause!");
         System.Threading.Thread.Sleep(4000);
-        pause = false; 
     }
+
 
 
     switch (Console.ReadKey(true).Key) 

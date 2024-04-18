@@ -12,3 +12,4 @@
 /home/spencer/c#/controlVariableScope/obj/Debug/net8.0/controlVariableScope.pdb
 /home/spencer/c#/controlVariableScope/obj/Debug/net8.0/controlVariableScope.genruntimeconfig.cache
 /home/spencer/c#/controlVariableScope/obj/Debug/net8.0/ref/controlVariableScope.dll
+/home/spencer/c#/controlVariableScope/obj/Debug/net8.0/controlVariableScope.sourcelink.json

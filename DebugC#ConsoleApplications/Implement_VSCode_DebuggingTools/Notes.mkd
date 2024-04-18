@@ -1,0 +1,150 @@
+# The debugger: 
+
+The Visual Studio Code debugger for C# uses the .NET Core runtime to launch and interact with an application. When you start the debugger, it creates a new instance of the runtime and runs the application within that instance. The runtime includes an application programming interface (API), which the debugger uses to attach to the running process (your application).
+
+Once your application is running and the debugger is attached, the debugger communicates with the running process using the .NET Core runtime's debugging APIs and a standard debug protocol. The debugger can interact with the process (the application running within the .NET runtime instance) by setting breakpoints, stepping through code, and inspecting variables. Visual Studio Code's debugger interface enables you to navigate the source code, view call stacks, and evaluate expressions.
+
+The most common way to specify a debug session is a launch configuration in the launch.json file. This approach is the default option enabled by the debugger tools. For example, if you create a C# console application and select Start Debugging from the Run menu, the debugger uses this approach to launch, attach to, and then interact with your application.
+
+## Breakpoints: 
+
+### Creation
+When running the debugger you can set breakpoints by selecting the numbers down the side. 
+Once selected the code will stop at this point and be evaluated. 
+
+### Removing/ disabling: 
+
+You can click the red circle to remove the breakpoint. 
+
+You can toggle breakpoint in the Run menu. 
+
+You can also disable a breakpoint rather than remove it. (right click red circle)
+
+
+### Conditional Breakpoints: 
+
+break point that triggers when a condition is met i.e. a variable is equal to a value. 
+
+Right click existing breakpoint and edit breakpoint to make it conditional. 
+
+- or -
+
+right click and set new conditional breakpoint. 
+
+### Hit Count / Logpoints breakpoints
+
+Hit count breakpoint: 
+
+Specify the number of times a breakpoint must be encountered before it will break execution. 
+
+Can specify the number with conditional breakpoint action. 
+
+Logpoints: 
+
+does not break the execution but logs in the console. Represented by a "diamond" shaped icon rather than circle. 
+
+Log messages are plain text but can include expressions to be evaluated within curly braces ('{}').
+
+These can be combined for further control. 
+
+# Launch Configuration
+
+## launch.json
+
+### Attributes: 
+the file contains one or more launch configurations in the configurations list: 
+
+The following are mandatory: 
+1. name - the reader friendly name assigned to the launch config. 
+    The value assigned appears in the launch config dropdown. 
+
+2. type - the type of debugger to use for the launch config.
+    Value of codeclr specifies a debugger type for .NET 5+ and .NET core applications (including c#)
+
+3. request - the request type of the launch config. 
+    Currently launch and attach are supported. 
+
+Others: 
+
+4. PreLaunchTask- specifies a task to run before debugging program. Task itself will be in the task.json file. 
+    Specifying prelaunch task of build runs a dotnet build command before launching the app. 
+
+5. Program- set to the path of the application dll or .NET Core host executable to launch. 
+    This property normally takes the form: ${workspaceFolder}/bin/Debug/<target-framework>/<project-name.dll>.
+
+    <target-framework> is the framework that the debug project is being built for. This value is normally found in the project file as the 'TargetFramework' property.
+    <project-name.dll> is the name of debugged project's build output dll. This property is normally the same as the project file name but with a '.dll' extension.
+        e.g. 
+        ${workspaceFolder}/bin/Debug/net7.0/Debug101.dll
+
+6. Cwd - specifies the working directory of the target process. 
+
+7. Args - specifies the arguments that are passed to your program at launch. There are non by default. 
+
+8. Console - specifies the type of console used when launched. Options are: 
+    internalConsole (default)- Debug Console.
+    integratedTerminal - Output panel in VSCode.
+    externalTerminal - external terminal window. 
+    (internalConsole cannot accept ReadLine())
+
+9. Stop at Entry - if you need to stop at the entry point of the target you can set stopAtEntry to be true. 
+
+## This is a way to use a debugger with two different projects: 
+"version": "2.0.0",
+"tasks": [
+    {
+        "label": "buildProject123",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+            "build",
+            "${workspaceFolder}/Project123/Project123.csproj",
+            "/property:GenerateFullPaths=true",
+            "/consoleloggerparameters:NoSummary"
+        ],
+        "problemMatcher": "$msCompile"
+    },
+    {
+        "label": "buildProject456",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+            "build",
+            "${workspaceFolder}/Project456/Project456.csproj",
+            "/property:GenerateFullPaths=true",
+            "/consoleloggerparameters:NoSummary"
+        ],
+        "problemMatcher": "$msCompile"
+    }
+]
+
+
+e.g : 
+   "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/bin/Debug/net8.0/Implement_VSCode_DebuggingTools.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+
+## Monitor variables and execution flow
+
+Variables can be added to the watch section by naming them or right clicking within the variables panel. 
+
+Within the Variables you can set value to see how code would behave with this change during the runtime. 
+
+Watch can be set to a conditional value
